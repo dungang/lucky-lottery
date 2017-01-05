@@ -30,6 +30,7 @@ npm run-script package
 
 抽奖结果自动截图，默认保存在 d:/lottery/
 可以在配置文件中修改，设置其他路径
+还可以查看日子文件 log/log.txt
 
 > 编辑配置
 
