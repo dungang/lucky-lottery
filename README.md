@@ -2,7 +2,9 @@
 # lucky-lottery
 年会抽奖软件
 
->> 使用手册
+![效果图](images/2017010517915.png)
+
+> 使用手册
 
 ```sh
 git clone http://github.com/dungang/lucky-lottery.git
@@ -24,7 +26,12 @@ npm run-script package
 - 开始抽奖：alt+s
 - 停止抽奖：alt+c
 
->> 编辑配置
+> 结果保存
+
+抽奖结果自动截图，默认保存在 d:/lottery/
+可以在配置文件中修改，设置其他路径
+
+> 编辑配置
 
 ```javascript
 
