@@ -10,3 +10,4 @@
 - 选择一个奖项：alt+n
 - 开始抽奖：alt+s
 - 停止抽奖：alt+c
+![捐赠](https://mobilecodec.alipay.com/show.htm?code=a6x05687iiarlv4f3vdy34f&picSize=L)
