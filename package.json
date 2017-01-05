@@ -1,0 +1,15 @@
+{
+  "name": "lucky-lottery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-packager ./ lucky-lottery --platform=win32 --out ../lucky-lottery-release --version 1.4.13 --overwrite --icon=./images/app.icns"
+  },
+  "author": "dungang",
+  "license": "MIT",
+  "dependencies": {
+    "log4js": "^1.1.0"
+  }
+}

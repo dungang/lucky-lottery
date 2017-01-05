@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>lucky-lottery</title>
+    <link rel="stylesheet" type="text/css" 
+    href="css/bootstrap.min.css" crossorigin="anonymous"/>
+    <style>
+      body {
+        background-image:  url('images/bg-2.jpg') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        color: orange;
+      }
+      .title{
+          text-align: center;
+          margin: 30px 0;
+          content: ' ';
+          margin-top:50px;
+      }
+      .sub-title {
+          text-align: center;
+      }
+      .reward {
+          text-align: center;
+          height:50px;
+          line-height: 50px;
+      }
+      .timer {
+          text-align: center;
+          height:30px;
+          line-height: 30px;
+      }
+
+      .reward-pepole {
+        margin:auto;
+        text-align: center;
+        font-size: 16px;
+        line-height: 24px;
+      }
+
+      .col-12 {
+        font-size:64px;
+        line-height: 72px;
+      }
+
+      .col-6 {
+        font-size:32px;
+        line-height: 40px;
+      }
+
+      .col-4 {
+        font-size:28px;
+        line-height: 30px;
+      }
+
+      .col-3 {
+        font-size:20px;
+        line-height: 25px;
+      }
+
+      .col-2 {
+        font-size:24px;
+        line-height: 30px;
+      }
+
+      .col-1 {
+        font-size:12px;
+        line-height: 18px;
+      }
+
+      @keyframes timer
+      {
+        from {
+          font-size: 24px;
+        }
+        to {
+          font-size: 100px;
+        }
+      }
+    </style>
+  </head>
+    <div class="container">
+      <div class="row">
+        <h2 class="title"></h2>
+        <h1 class="sub-title"></h1>
+      </div>
+    <div class="container">
+      <h2 class="reward"></h2>
+      <div id="reward-area" class="reward-pepole row">
+        <div class="col-md-12 col-12">
+          <h2>开始抽奖</h2>
+        </div>
+      </div>
+      </div>
+    </div>
+  <body>
+    <script  src="index.js"></script>
+  </body>
+</html>
