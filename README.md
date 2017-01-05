@@ -2,6 +2,10 @@
 # lucky-lottery
 年会抽奖软件
 
+![logo](images/app.png)
+
+> 效果图
+
 ![效果图](images/2017010517915.png)
 
 > 使用手册
