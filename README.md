@@ -13,7 +13,9 @@
 ```sh
 git clone http://github.com/dungang/lucky-lottery.git
 cd lucky-lottery
+
 #安装依赖包
+npm install -g electron@1.4.13 electron-packager
 npm install
 #启动项目
 npm start
@@ -26,7 +28,7 @@ npm run-script package
 - 背景图片路径 images
 - 退出 ctrl+q 
 - 打开调试窗口 ctrl+i
-- 选择一个奖项：alt+n
+- 选择一个奖项：alt+n  启动软件之后第一个要执行的命令
 - 开始抽奖：alt+s
 - 停止抽奖：alt+c
 
