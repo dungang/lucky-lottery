@@ -1,4 +1,4 @@
-'use strict'
+"use strict";
 var config =  {
      //默认字体颜色
     fontColor: '#fdd312',
