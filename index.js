@@ -209,15 +209,19 @@ function stopRolling() {
         rolling = false;
         var reward = lottery.currentReward();
         clearRandomTimer();
-        audioPlayMusic('musicOfDraw', false, function () {
-            console.log('Stop a drawing reward : ' + reward.title);
-            if (lottery.completedOnceRolling()) {
-                //获取最新的奖项数据（获奖人数的变化）
-                reward = lottery.currentReward();
-                setRewardInfo(reward);
+        console.log('Stop a drawing reward : ' + reward.title);
+        if (lottery.completedOnceRolling()) {
+            //获取最新的奖项数据（获奖人数的变化）
+            reward = lottery.currentReward();
+            setRewardInfo(reward);
+            //等待一秒后执行，应为渲染是结果是异步的，需要时间
+            window.setTimeout(function(){
                 captureResult();
-                console.log('Save a drawed reward result : ' + reward.title);
-            }
+            },500);
+            console.log('Save a drawed reward result : ' + reward.title);
+        }
+        audioPlayMusic('musicOfDraw', false, function () {
+            
             this.addEventListener('ended', function () {
                 audioPlayMusic('musicOfBackground', true);
             }, {
