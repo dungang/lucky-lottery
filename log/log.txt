@@ -95,3 +95,541 @@
 [2018-01-21 10:41:55.575] [INFO] console - Lottery taskId 1 余下:赵丽颖,Angelababy,姜妍,迪丽热巴,陈学冬,张铭恩,徐梵溪,安悦溪,杨紫,马可,郑爽,关晓彤,唐嫣,张云龙,乔欣,王鸥,赵圆瑗,吴优,陈梦希,张馨予,晁然,宋轶,张天爱,罗云熙,贾青,戴向宇,古力娜扎,陈瑶,张萌,吴磊,张檬,陈晓,谭松韵,李沁,张子萱,徐海乔,刘涛,张翰,鹿晗,杨烁,杨幂,王洋,成毅,马天宇,蔡文静,李纯米露,牟星,曹曦月,方文强,江疏影,吴倩,孙佳雨,胡冰卿,王凯,袁姗姗,梁振伦,赵韩樱子,张钧甯,毛晓彤,蒋欣,徐璐,陈翔,乔任梁,靳东,吴亦凡,徐冬冬,焦俊艳,王子文,唐娜,唐艺昕,张丹峰,蒋蕊泽,陈小纭,TFBOYS,杨洋,颖儿,斓曦,刘诗诗,陈洁,郑业成,李溪芮,孙耀琦,秦语,范冰冰,张浩,郭俊辰,刘芊含,刘昊然,宋茜,范世錡,郑恺,陈赫,李心艾,吕一,杨玏
 [2018-01-21 10:41:55.575] [INFO] console - Save a drawed reward result : 幸运奖
 [2018-01-21 10:41:56.644] [INFO] console - Finished a drawing reward : 幸运奖
+[2018-01-21 11:21:19.523] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:21:21.164] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:21:21.168] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:21:21.169] [INFO] console - Lottery taskId 0 随机用户: 吕一,杨幂,张浩,杨洋,关晓彤,李沁,谭松韵,陈瑶,刘芊含,Angelababy,马可,王凯,宋轶,王子文,鹿晗,刘诗诗,吴亦凡,张丹峰,陈洁,迪丽热巴,罗云熙,安悦溪,范世錡,蒋欣,吴倩,麦迪娜,陈小纭,陈翔,张子萱,方文强,吴磊,TFBOYS,张云龙,焦俊艳,陈赫,陈学冬,郑业成,斓曦,张萌,蒋蕊泽,杨紫,孙佳雨,赵丽颖,徐冬冬,蔡文静,李易峰,杨烁,孙耀琦,徐梵溪,郑爽,毛晓彤,宋茜,袁姗姗,张天爱,郑恺,徐璐,秦语,赵圆瑗,郭俊辰,唐艺昕,姜妍,刘涛,王洋,唐娜,牟星,张翰,张檬,马天宇,吴优,陈晓
+[2018-01-21 11:21:21.171] [INFO] console - Lottery taskId 0 余下:唐嫣,乔欣,王鸥,陈梦希,张馨予,晁然,贾青,戴向宇,古力娜扎,徐海乔,成毅,李纯米露,曹曦月,江疏影,胡冰卿,梁振伦,赵韩樱子,张钧甯,乔任梁,靳东,颖儿,李溪芮,范冰冰,刘昊然,李心艾,杨玏
+[2018-01-21 11:21:21.172] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:21:23.030] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:21:23.031] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:21:26.506] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:21:26.507] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:21:26.507] [INFO] console - Lottery taskId 0 随机用户: 戴向宇,杨玏,江疏影,徐海乔,曹曦月
+[2018-01-21 11:21:26.508] [INFO] console - Lottery taskId 0 余下:唐嫣,乔欣,王鸥,陈梦希,张馨予,晁然,贾青,古力娜扎,成毅,李纯米露,胡冰卿,梁振伦,赵韩樱子,张钧甯,乔任梁,靳东,颖儿,李溪芮,范冰冰,刘昊然,李心艾
+[2018-01-21 11:21:26.508] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:21:26.509] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:21:31.701] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:21:31.701] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:21:31.701] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:21:31.702] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:21:32.600] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 11:21:32.609] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:21:32.609] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:21:32.610] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:21:32.610] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:29:49.883] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:29:58.164] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:29:58.165] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:29:58.166] [INFO] console - Lottery taskId 0 随机用户: 唐嫣,蒋蕊泽,范世錡,杨洋,张翰,徐冬冬,唐娜,李心艾,张丹峰,马天宇,谭松韵,牟星,王洋,王子文,罗云熙,方文强,乔欣,毛晓彤,马可,徐璐,吴磊,姜妍,张钧甯,陈小纭,关晓彤,陈瑶,鹿晗,陈赫,郭俊辰,杨紫,秦语,范冰冰,古力娜扎,蔡文静,贾青,晁然,张檬,赵圆瑗,李溪芮,TFBOYS,赵丽颖,张天爱,张云龙,杨玏,Angelababy,张萌,李沁,李纯米露,刘诗诗,孙佳雨,斓曦,李易峰,杨幂,袁姗姗,王鸥,吴倩,宋轶,刘芊含,胡冰卿,吕一,王凯,颖儿,杨烁,孙耀琦,曹曦月,蒋欣,陈晓,乔任梁,靳东,张浩
+[2018-01-21 11:29:58.166] [INFO] console - Lottery taskId 0 余下:迪丽热巴,陈学冬,徐梵溪,安悦溪,郑爽,麦迪娜,吴优,陈梦希,张馨予,戴向宇,张子萱,徐海乔,刘涛,成毅,江疏影,梁振伦,赵韩樱子,陈翔,吴亦凡,焦俊艳,唐艺昕,陈洁,郑业成,刘昊然,宋茜,郑恺
+[2018-01-21 11:29:58.167] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:29:59.385] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:29:59.394] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:29:59.394] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:30:07.203] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:30:07.203] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:30:07.203] [INFO] console - Lottery taskId 0 随机用户: 吴优,赵韩樱子,刘昊然,吴亦凡,陈洁
+[2018-01-21 11:30:07.204] [INFO] console - Lottery taskId 0 余下:迪丽热巴,陈学冬,徐梵溪,安悦溪,郑爽,麦迪娜,陈梦希,张馨予,戴向宇,张子萱,徐海乔,刘涛,成毅,江疏影,梁振伦,陈翔,焦俊艳,唐艺昕,郑业成,宋茜,郑恺
+[2018-01-21 11:30:07.204] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:30:07.204] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:30:08.361] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 11:30:08.369] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:30:08.370] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:30:08.370] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:30:09.211] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 11:30:09.219] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:30:09.220] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:30:09.220] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:30:15.468] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:30:15.471] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:30:15.471] [INFO] console - Lottery taskId 0 随机用户: 成毅,戴向宇,张子萱,徐海乔,陈学冬
+[2018-01-21 11:30:15.472] [INFO] console - Lottery taskId 0 余下:迪丽热巴,徐梵溪,安悦溪,郑爽,麦迪娜,陈梦希,张馨予,刘涛,江疏影,梁振伦,陈翔,焦俊艳,唐艺昕,郑业成,宋茜,郑恺
+[2018-01-21 11:30:15.472] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:30:15.474] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:30:15.476] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:30:16.932] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:30:16.932] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:30:16.933] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:30:16.934] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:30:16.934] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:30:18.037] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:30:18.038] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:30:18.038] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:30:18.038] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:30:18.038] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:30:18.038] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:30:19.857] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:30:19.858] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:30:19.859] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 11:30:19.860] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:30:19.860] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:30:19.861] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:39:03.211] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:05.793] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:05.794] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:39:05.794] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:39:06.861] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:06.861] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:39:06.861] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:39:06.862] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:08.415] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:08.417] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:39:08.417] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:39:08.418] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:08.418] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:39:08.418] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:39:09.477] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:09.477] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:39:09.478] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:39:09.478] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:09.478] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:39:09.478] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:39:09.478] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:09.758] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:09.758] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:39:09.759] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:39:09.759] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:09.759] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:39:09.759] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:39:09.760] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:39:09.760] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:40:29.235] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:42:51.174] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:42:56.285] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:42:56.286] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:42:56.287] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:42:58.105] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:42:58.105] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:42:58.105] [INFO] console - Lottery taskId 0 随机用户: 
+[2018-01-21 11:44:15.343] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:16.549] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:16.552] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:16.553] [INFO] console - Lottery taskId 0 随机用户: 宋轶,赵圆瑗,关晓彤,秦语,郑爽,宋茜,范冰冰,张翰,焦俊艳,李心艾,杨洋,麦迪娜,徐璐,陈学冬,古力娜扎,戴向宇,吕一,张浩,姜妍,杨紫,江疏影,罗云熙,乔任梁,赵丽颖,赵韩樱子,方文强,张丹峰,徐冬冬,张子萱,马可,晁然,陈晓,鹿晗,徐海乔,胡冰卿,毛晓彤,张萌,斓曦,颖儿,陈赫,王洋,Angelababy,唐娜,郭俊辰,迪丽热巴,陈翔,袁姗姗,范世錡,贾青,曹曦月,刘诗诗,唐艺昕,孙佳雨,吴亦凡,刘芊含,吴磊,刘涛,TFBOYS,陈瑶,张钧甯,李沁,郑业成,蒋蕊泽,牟星,蒋欣,杨幂,梁振伦,张馨予,陈洁,乔欣
+[2018-01-21 11:44:16.553] [INFO] console - Lottery taskId 0 余下:徐梵溪,安悦溪,李易峰,唐嫣,张云龙,王鸥,吴优,陈梦希,张天爱,张檬,谭松韵,杨烁,成毅,马天宇,蔡文静,李纯米露,吴倩,王凯,靳东,王子文,陈小纭,李溪芮,孙耀琦,刘昊然,郑恺,杨玏
+[2018-01-21 11:44:16.554] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:44:17.678] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:44:17.685] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:17.686] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:18.644] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:44:18.651] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:18.652] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:24.068] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:24.068] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:24.068] [INFO] console - Lottery taskId 0 随机用户: 徐梵溪,杨烁,张天爱,谭松韵,靳东
+[2018-01-21 11:44:24.068] [INFO] console - Lottery taskId 0 余下:安悦溪,李易峰,唐嫣,张云龙,王鸥,吴优,陈梦希,张檬,成毅,马天宇,蔡文静,李纯米露,吴倩,王凯,王子文,陈小纭,李溪芮,孙耀琦,刘昊然,郑恺,杨玏
+[2018-01-21 11:44:24.069] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:44:24.069] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:25.888] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:25.888] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:25.889] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:27.361] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 11:44:27.369] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:27.370] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:27.371] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:28.346] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 11:44:28.349] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:28.349] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:28.350] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:30.065] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 11:44:30.075] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:30.076] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:30.076] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:35.034] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:35.035] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:35.035] [INFO] console - Lottery taskId 0 随机用户: 孙耀琦,刘昊然,杨玏,李溪芮,吴优
+[2018-01-21 11:44:35.035] [INFO] console - Lottery taskId 0 余下:安悦溪,李易峰,唐嫣,张云龙,王鸥,陈梦希,张檬,成毅,马天宇,蔡文静,李纯米露,吴倩,王凯,王子文,陈小纭,郑恺
+[2018-01-21 11:44:35.035] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:44:35.035] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:35.035] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:36.827] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:36.828] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:36.828] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:36.829] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:36.829] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:38.654] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:38.654] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:38.654] [INFO] console - Lottery taskId 0 随机用户: 陈梦希,王子文,李纯米露,陈小纭,吴倩
+[2018-01-21 11:44:38.654] [INFO] console - Lottery taskId 0 余下:安悦溪,李易峰,唐嫣,张云龙,王鸥,张檬,成毅,马天宇,蔡文静,王凯,郑恺
+[2018-01-21 11:44:38.655] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:44:38.655] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:38.656] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:38.656] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:42.742] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:42.742] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:42.742] [INFO] console - Lottery taskId 1 随机用户: 陈瑶
+[2018-01-21 11:44:42.743] [INFO] console - Lottery taskId 1 余下:赵丽颖,Angelababy,姜妍,迪丽热巴,陈学冬,张铭恩,徐梵溪,安悦溪,杨紫,马可,郑爽,麦迪娜,关晓彤,唐嫣,张云龙,乔欣,王鸥,赵圆瑗,吴优,陈梦希,张馨予,晁然,宋轶,张天爱,罗云熙,贾青,戴向宇,古力娜扎,张萌,吴磊,张檬,陈晓,谭松韵,李沁,张子萱,徐海乔,刘涛,张翰,鹿晗,杨烁,杨幂,王洋,成毅,马天宇,蔡文静,李纯米露,牟星,曹曦月,方文强,江疏影,吴倩,孙佳雨,胡冰卿,王凯,袁姗姗,梁振伦,赵韩樱子,张钧甯,毛晓彤,蒋欣,徐璐,陈翔,乔任梁,靳东,吴亦凡,徐冬冬,焦俊艳,王子文,唐娜,唐艺昕,张丹峰,蒋蕊泽,陈小纭,TFBOYS,杨洋,颖儿,斓曦,刘诗诗,陈洁,郑业成,李溪芮,孙耀琦,秦语,范冰冰,张浩,郭俊辰,刘芊含,刘昊然,宋茜,范世錡,郑恺,陈赫,李心艾,吕一,杨玏
+[2018-01-21 11:44:42.743] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:44:42.744] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:42.744] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:42.744] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:42.745] [INFO] console - Start a drawing reward : 幸运奖
+[2018-01-21 11:44:43.767] [INFO] console - Finished a drawing reward : 幸运奖
+[2018-01-21 11:44:43.777] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:44:43.778] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:44:43.778] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 11:44:43.782] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:43.782] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 11:44:43.783] [INFO] console - Start a drawing reward : 幸运奖
+[2018-01-21 11:45:48.886] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:45:51.429] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:45:51.435] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:45:51.436] [INFO] console - Lottery taskId 0 随机用户: 张浩,吕一,陈赫,王鸥,陈梦希,马天宇,江疏影,贾青,陈翔,宋茜,张钧甯,张子萱,晁然,乔欣,古力娜扎,杨玏,张馨予,曹曦月,罗云熙,吴磊,谭松韵,范世錡,杨洋,乔任梁,牟星,秦语,徐冬冬,张天爱,关晓彤,吴优,刘昊然,Angelababy,郑爽,唐嫣,唐艺昕,焦俊艳,杨幂,毛晓彤,姜妍,吴亦凡,宋轶,陈瑶,陈学冬,唐娜,张云龙,迪丽热巴,张萌,郑恺,蔡文静,颖儿,蒋蕊泽,刘涛,TFBOYS,李心艾,赵丽颖,方文强,陈小纭,郭俊辰,麦迪娜,张翰,胡冰卿,陈晓,张丹峰,范冰冰,安悦溪,孙佳雨,梁振伦,袁姗姗,戴向宇,王洋
+[2018-01-21 11:45:51.437] [INFO] console - Lottery taskId 0 余下:徐梵溪,李易峰,杨紫,马可,赵圆瑗,张檬,李沁,徐海乔,鹿晗,杨烁,成毅,李纯米露,吴倩,王凯,赵韩樱子,蒋欣,徐璐,靳东,王子文,斓曦,刘诗诗,陈洁,郑业成,李溪芮,孙耀琦,刘芊含
+[2018-01-21 11:45:51.437] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:45:52.557] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:45:52.566] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:45:52.566] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:46:27.926] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:46:33.915] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:46:33.917] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:39.106] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:41.461] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:41.463] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.091] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.092] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.092] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.450] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.451] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.452] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.452] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.647] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.648] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.648] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.649] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.649] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.856] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.857] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.857] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.858] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.859] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:42.859] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.036] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.037] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.037] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.038] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.038] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.039] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.039] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.189] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.191] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.192] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.193] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.194] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.198] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.199] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:43.200] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.234] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.237] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.239] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.240] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.240] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.241] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.241] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.242] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:52.244] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:50:52.245] [INFO] console - Lottery taskId 0 随机用户: 江疏影,杨紫,张丹峰,王子文,刘芊含,颖儿,徐海乔,TFBOYS,范冰冰,谭松韵,Angelababy,马天宇,赵韩樱子,宋轶,孙佳雨,罗云熙,唐艺昕,蔡文静,徐冬冬,孙耀琦,梁振伦,张云龙,关晓彤,陈晓,乔任梁,陈梦希,陈小纭,刘涛,陈翔,张翰,毛晓彤,吴磊,陈学冬,张檬,唐嫣,马可,杨玏,杨洋,安悦溪,张萌,晁然,赵丽颖,胡冰卿,王鸥,杨幂,姜妍,蒋蕊泽,吕一,袁姗姗,焦俊艳,成毅,张子萱,张钧甯,吴亦凡,陈赫,李沁,刘昊然,王凯,张馨予,张天爱,李溪芮,靳东,斓曦,古力娜扎,徐璐,郑恺,赵圆瑗,郭俊辰,迪丽热巴,秦语
+[2018-01-21 11:50:52.246] [INFO] console - Lottery taskId 0 余下:徐梵溪,李易峰,郑爽,麦迪娜,乔欣,吴优,贾青,戴向宇,陈瑶,鹿晗,杨烁,王洋,李纯米露,牟星,曹曦月,方文强,吴倩,蒋欣,唐娜,刘诗诗,陈洁,郑业成,张浩,宋茜,范世錡,李心艾
+[2018-01-21 11:50:52.247] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:50:57.947] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:57.950] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:57.950] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:57.951] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:57.951] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:57.952] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:57.952] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:57.953] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:50:57.953] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:54:36.310] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:54:37.002] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:54:37.008] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:54:38.753] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:54:38.758] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:54:39.336] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:54:39.350] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:54:39.786] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:54:39.807] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:54:40.472] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 11:54:40.508] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:54:45.465] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:54:45.466] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:54:45.467] [INFO] console - Lottery taskId 0 随机用户: 李心艾,杨玏,郭俊辰,乔任梁,王鸥,麦迪娜,王洋,梁振伦,范世錡,徐冬冬,秦语,李溪芮,张馨予,蒋欣,戴向宇,刘涛,靳东,郑爽,迪丽热巴,曹曦月,张丹峰,张云龙,张浩,陈翔,徐海乔,赵丽颖,颖儿,唐嫣,吕一,杨紫,李易峰,张天爱,杨洋,陈学冬,范冰冰,江疏影,宋轶,焦俊艳,张檬,赵韩樱子,张钧甯,郑业成,TFBOYS,关晓彤,胡冰卿,刘昊然,成毅,方文强,张翰,吴亦凡,Angelababy,马天宇,陈晓,张子萱,宋茜,李纯米露,斓曦,古力娜扎,谭松韵,乔欣,蒋蕊泽,郑恺,陈梦希,陈瑶,马可,王凯,袁姗姗,陈小纭,杨幂,吴优
+[2018-01-21 11:54:45.467] [INFO] console - Lottery taskId 0 余下:姜妍,徐梵溪,安悦溪,赵圆瑗,晁然,罗云熙,贾青,张萌,吴磊,李沁,鹿晗,杨烁,蔡文静,牟星,吴倩,孙佳雨,毛晓彤,徐璐,王子文,唐娜,唐艺昕,刘诗诗,陈洁,孙耀琦,刘芊含,陈赫
+[2018-01-21 11:54:45.468] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 11:54:47.294] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 11:54:47.295] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 11:54:47.295] [INFO] console - Lottery taskId 0 随机用户: 晁然,贾青,吴磊,毛晓彤,罗云熙
+[2018-01-21 11:54:47.296] [INFO] console - Lottery taskId 0 余下:姜妍,徐梵溪,安悦溪,赵圆瑗,张萌,李沁,鹿晗,杨烁,蔡文静,牟星,吴倩,孙佳雨,徐璐,王子文,唐娜,唐艺昕,刘诗诗,陈洁,孙耀琦,刘芊含,陈赫
+[2018-01-21 11:54:47.296] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 12:03:34.136] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:03:34.712] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:03:34.721] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:03:35.573] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:03:35.581] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:03:36.222] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:03:36.263] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:03:37.155] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:03:37.184] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:03:39.763] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:03:41.219] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:03:41.526] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:03:41.826] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:03:42.107] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:03:42.280] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:03:42.445] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:03:42.610] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:05:39.304] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:06:17.831] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:06:17.861] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:17:17.125] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:17:35.023] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:17:38.463] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:17:39.175] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:17:40.528] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:17:45.024] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:17:46.157] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:19:28.440] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:19:32.754] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:20:09.017] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:20:09.059] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:20:58.536] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:21:30.035] [ERROR] console - ReferenceError: currentReward is not defined
+[2018-01-21 12:23:09.644] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:23:13.749] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:24:25.698] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:24:28.318] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:24:28.319] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:24:28.320] [INFO] console - Lottery taskId 0 随机用户: 唐嫣,徐梵溪,张子萱,牟星,张翰,郭俊辰,马天宇,刘涛,成毅,郑恺,郑业成,陈梦希,张云龙,蒋欣,杨玏,张丹峰,陈翔,颖儿,姜妍,李心艾,宋茜,李纯米露,乔任梁,乔欣,杨洋,斓曦,马可,张天爱,陈洁,安悦溪,王鸥,杨紫,宋轶,吕一,吴亦凡,范世錡,靳东,谭松韵,贾青,毛晓彤,陈赫,晁然,江疏影,袁姗姗,陈晓,徐冬冬,赵丽颖,范冰冰,郑爽,吴优,吴倩,王子文,杨烁,张馨予,吴磊,徐海乔,李沁,徐璐,关晓彤,TFBOYS,迪丽热巴,张浩,秦语,罗云熙,王凯,王洋,方文强,杨幂,孙佳雨,陈小纭
+[2018-01-21 12:24:28.320] [INFO] console - Lottery taskId 0 余下:Angelababy,陈学冬,李易峰,麦迪娜,赵圆瑗,戴向宇,古力娜扎,陈瑶,张萌,张檬,鹿晗,蔡文静,曹曦月,胡冰卿,梁振伦,赵韩樱子,张钧甯,焦俊艳,唐娜,唐艺昕,蒋蕊泽,刘诗诗,李溪芮,孙耀琦,刘芊含,刘昊然
+[2018-01-21 12:24:28.323] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 12:24:30.145] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:24:30.146] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:45:15.837] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 12:45:15.849] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:45:15.850] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:45:15.851] [INFO] console - Lottery taskId 0 随机用户: 张钧甯,鹿晗,胡冰卿,孙耀琦,张檬
+[2018-01-21 12:45:15.852] [INFO] console - Lottery taskId 0 余下:Angelababy,陈学冬,李易峰,麦迪娜,赵圆瑗,戴向宇,古力娜扎,陈瑶,张萌,蔡文静,曹曦月,梁振伦,赵韩樱子,焦俊艳,唐娜,唐艺昕,蒋蕊泽,刘诗诗,李溪芮,刘芊含,刘昊然
+[2018-01-21 12:45:15.853] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 12:48:23.966] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 12:48:23.990] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:48:23.992] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:48:27.063] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 12:48:27.072] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:48:27.074] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:48:27.851] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 12:48:27.854] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:48:27.855] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:48:28.402] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 12:48:28.406] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:48:28.408] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:49:40.339] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 12:49:40.349] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:49:40.352] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:49:43.685] [INFO] console - Finished a drawing reward : 二等奖
+[2018-01-21 12:49:43.688] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:49:43.689] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:49:43.689] [INFO] console - Lottery taskId 0 随机用户: 赵圆瑗,李易峰,张萌,蔡文静,刘昊然
+[2018-01-21 12:49:43.689] [INFO] console - Lottery taskId 0 余下:Angelababy,陈学冬,麦迪娜,戴向宇,古力娜扎,陈瑶,曹曦月,梁振伦,赵韩樱子,焦俊艳,唐娜,唐艺昕,蒋蕊泽,刘诗诗,李溪芮,刘芊含
+[2018-01-21 12:49:43.690] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 12:49:48.904] [INFO] console - Finished a drawing reward : 一等奖
+[2018-01-21 12:49:48.908] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:49:48.909] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:49:48.910] [INFO] console - Lottery taskId 0 随机用户: 曹曦月,李溪芮,Angelababy,唐娜,梁振伦
+[2018-01-21 12:49:48.910] [INFO] console - Lottery taskId 0 余下:陈学冬,麦迪娜,戴向宇,古力娜扎,陈瑶,赵韩樱子,焦俊艳,唐艺昕,蒋蕊泽,刘诗诗,刘芊含
+[2018-01-21 12:49:48.911] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 12:49:53.805] [INFO] console - Finished a drawing reward : 幸运奖
+[2018-01-21 12:49:53.811] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:49:53.812] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:49:53.812] [INFO] console - Lottery taskId 1 随机用户: 马可
+[2018-01-21 12:49:53.813] [INFO] console - Lottery taskId 1 余下:赵丽颖,Angelababy,姜妍,迪丽热巴,陈学冬,张铭恩,徐梵溪,安悦溪,杨紫,郑爽,麦迪娜,关晓彤,唐嫣,张云龙,乔欣,王鸥,赵圆瑗,吴优,陈梦希,张馨予,晁然,宋轶,张天爱,罗云熙,贾青,戴向宇,古力娜扎,陈瑶,张萌,吴磊,张檬,陈晓,谭松韵,李沁,张子萱,徐海乔,刘涛,张翰,鹿晗,杨烁,杨幂,王洋,成毅,马天宇,蔡文静,李纯米露,牟星,曹曦月,方文强,江疏影,吴倩,孙佳雨,胡冰卿,王凯,袁姗姗,梁振伦,赵韩樱子,张钧甯,毛晓彤,蒋欣,徐璐,陈翔,乔任梁,靳东,吴亦凡,徐冬冬,焦俊艳,王子文,唐娜,唐艺昕,张丹峰,蒋蕊泽,陈小纭,TFBOYS,杨洋,颖儿,斓曦,刘诗诗,陈洁,郑业成,李溪芮,孙耀琦,秦语,范冰冰,张浩,郭俊辰,刘芊含,刘昊然,宋茜,范世錡,郑恺,陈赫,李心艾,吕一,杨玏
+[2018-01-21 12:49:53.814] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 12:52:10.909] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:20.765] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:20.765] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:20.766] [INFO] console - Lottery taskId 0 随机用户: 毛晓彤,张丹峰,杨洋,方文强,张馨予,郭俊辰,孙耀琦,蒋蕊泽,郑爽,鹿晗,陈晓,陈学冬,赵丽颖,郑恺,张翰,唐嫣,TFBOYS,张云龙,斓曦,关晓彤,吴倩,牟星,李纯米露,焦俊艳,晁然,唐娜,胡冰卿,马可,杨烁,杨紫,徐冬冬,赵韩樱子,赵圆瑗,吴优,郑业成,古力娜扎,颖儿,姜妍,曹曦月,王鸥,成毅,王洋,秦语,吴磊,陈小纭,刘诗诗,刘昊然,靳东,谭松韵,张子萱,Angelababy,吕一,马天宇,陈翔,乔欣,吴亦凡,蒋欣,王凯,唐艺昕,袁姗姗,麦迪娜,杨幂,陈瑶,李心艾,乔任梁,李沁,宋轶,范世錡,张天爱,张钧甯
+[2018-01-21 12:52:20.767] [INFO] console - Lottery taskId 0 余下:迪丽热巴,徐梵溪,安悦溪,李易峰,陈梦希,罗云熙,贾青,戴向宇,张萌,张檬,徐海乔,刘涛,蔡文静,江疏影,孙佳雨,梁振伦,徐璐,王子文,陈洁,李溪芮,范冰冰,张浩,刘芊含,宋茜,陈赫,杨玏
+[2018-01-21 12:52:20.768] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 12:52:22.584] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:22.585] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:28.450] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:28.461] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:28.462] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:31.206] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:31.221] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:31.222] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:31.786] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:31.794] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:31.795] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:32.143] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:32.146] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:32.147] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:32.444] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:32.453] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:32.454] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:32.739] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:32.749] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:32.752] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:33.006] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:33.017] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:33.018] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:33.261] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:33.273] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:33.275] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:33.688] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:33.698] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:33.699] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:33.942] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:33.953] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:33.954] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:34.162] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:34.168] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:34.169] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:34.368] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:34.379] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:34.381] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:34.559] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:34.570] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:34.572] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:34.755] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:34.764] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:34.766] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:34.960] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:34.970] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:34.973] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:35.150] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:35.157] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:35.158] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:35.348] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:35.359] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:35.361] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:50.476] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:50.487] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:50.488] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:50.896] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:50.906] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:50.907] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:51.196] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:51.201] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:51.202] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:51.451] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:51.461] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:51.463] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:52:51.655] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:52:51.659] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:52:51.659] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:41.906] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:41.910] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:41.910] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:42.343] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:42.354] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:42.356] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:42.686] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:42.695] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:42.695] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:42.961] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:42.966] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:42.967] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:43.191] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:43.202] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:43.204] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:43.396] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:43.405] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:43.406] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:43.585] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:43.596] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:43.597] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:43.783] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:43.795] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:43.797] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:44.100] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:44.111] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:44.112] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:44.313] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:44.317] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:44.317] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:44.518] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:44.528] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:44.529] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:44.699] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:44.704] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:44.707] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:44.913] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:44.925] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:44.928] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:45.150] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:45.154] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:45.155] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:53:45.331] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:53:45.335] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:53:45.336] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:54:36.217] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:54:36.235] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:54:36.236] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:54:36.765] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:54:36.774] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:54:36.775] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:54:37.064] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:54:37.074] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:54:37.075] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:54:40.038] [INFO] console - Finished a drawing reward : 四等奖
+[2018-01-21 12:54:40.043] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:57:07.129] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 12:57:08.246] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 12:57:08.247] [INFO] console - Lottery taskId 0 随机用户: 宋轶,张檬,陈赫,吕一,贾青,宋茜,马天宇,陈洁,张云龙,斓曦,吴倩,乔欣,曹曦月,蒋蕊泽,陈瑶,郑业成,谭松韵,杨幂,陈小纭,范冰冰,陈晓,王鸥,鹿晗,唐嫣,陈学冬,陈翔,李易峰,吴亦凡,郑爽,徐冬冬,孙佳雨,毛晓彤,徐海乔,张钧甯,唐娜,陈梦希,杨洋,戴向宇,李纯米露,李沁,梁振伦,刘芊含,张浩,刘涛,方文强,袁姗姗,乔任梁,Angelababy,关晓彤,赵圆瑗,江疏影,张萌,刘诗诗,马可,徐璐,王凯,张馨予,刘昊然,成毅,晁然,杨烁,吴磊,蒋欣,TFBOYS,张翰,罗云熙,赵韩樱子,王洋,唐艺昕,徐梵溪
+[2018-01-21 12:57:08.248] [INFO] console - Lottery taskId 0 余下:赵丽颖,姜妍,迪丽热巴,安悦溪,杨紫,麦迪娜,吴优,张天爱,古力娜扎,张子萱,蔡文静,牟星,胡冰卿,靳东,焦俊艳,王子文,张丹峰,颖儿,李溪芮,孙耀琦,秦语,郭俊辰,范世錡,郑恺,李心艾,杨玏
+[2018-01-21 12:57:08.252] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 12:57:11.816] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 12:57:17.472] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 12:57:17.473] [INFO] console - Lottery taskId 0 随机用户: 孙耀琦,张天爱,麦迪娜,郭俊辰,秦语
+[2018-01-21 12:57:17.474] [INFO] console - Lottery taskId 0 余下:赵丽颖,姜妍,迪丽热巴,安悦溪,杨紫,吴优,古力娜扎,张子萱,蔡文静,牟星,胡冰卿,靳东,焦俊艳,王子文,张丹峰,颖儿,李溪芮,范世錡,郑恺,李心艾,杨玏
+[2018-01-21 12:57:17.475] [INFO] console - Save a drawed reward result : 三等奖
+[2018-01-21 12:57:18.647] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 12:57:19.451] [INFO] console - Finished a drawing reward : 三等奖
+[2018-01-21 12:57:20.859] [INFO] console - Start a drawing reward : 二等奖
+[2018-01-21 12:57:24.078] [INFO] console - Stop a drawing reward : 二等奖
+[2018-01-21 12:57:24.078] [INFO] console - Lottery taskId 0 随机用户: 迪丽热巴,古力娜扎,胡冰卿,张子萱,杨紫
+[2018-01-21 12:57:24.079] [INFO] console - Lottery taskId 0 余下:赵丽颖,姜妍,安悦溪,吴优,蔡文静,牟星,靳东,焦俊艳,王子文,张丹峰,颖儿,李溪芮,范世錡,郑恺,李心艾,杨玏
+[2018-01-21 12:57:24.079] [INFO] console - Save a drawed reward result : 二等奖
+[2018-01-21 12:57:26.151] [INFO] console - Finished a drawing reward : 二等奖
+[2018-01-21 12:57:27.539] [INFO] console - Start a drawing reward : 一等奖
+[2018-01-21 12:57:29.360] [INFO] console - Stop a drawing reward : 一等奖
+[2018-01-21 12:57:29.361] [INFO] console - Lottery taskId 0 随机用户: 杨玏,安悦溪,郑恺,焦俊艳,姜妍
+[2018-01-21 12:57:29.361] [INFO] console - Lottery taskId 0 余下:赵丽颖,吴优,蔡文静,牟星,靳东,王子文,张丹峰,颖儿,李溪芮,范世錡,李心艾
+[2018-01-21 12:57:29.363] [INFO] console - Save a drawed reward result : 一等奖
+[2018-01-21 12:57:30.777] [INFO] console - Start a drawing reward : 幸运奖
+[2018-01-21 12:57:36.808] [INFO] console - Stop a drawing reward : 幸运奖
+[2018-01-21 12:57:36.809] [INFO] console - Lottery taskId 1 随机用户: 李溪芮
+[2018-01-21 12:57:36.809] [INFO] console - Lottery taskId 1 余下:赵丽颖,Angelababy,姜妍,迪丽热巴,陈学冬,张铭恩,徐梵溪,安悦溪,杨紫,马可,郑爽,麦迪娜,关晓彤,唐嫣,张云龙,乔欣,王鸥,赵圆瑗,吴优,陈梦希,张馨予,晁然,宋轶,张天爱,罗云熙,贾青,戴向宇,古力娜扎,陈瑶,张萌,吴磊,张檬,陈晓,谭松韵,李沁,张子萱,徐海乔,刘涛,张翰,鹿晗,杨烁,杨幂,王洋,成毅,马天宇,蔡文静,李纯米露,牟星,曹曦月,方文强,江疏影,吴倩,孙佳雨,胡冰卿,王凯,袁姗姗,梁振伦,赵韩樱子,张钧甯,毛晓彤,蒋欣,徐璐,陈翔,乔任梁,靳东,吴亦凡,徐冬冬,焦俊艳,王子文,唐娜,唐艺昕,张丹峰,蒋蕊泽,陈小纭,TFBOYS,杨洋,颖儿,斓曦,刘诗诗,陈洁,郑业成,孙耀琦,秦语,范冰冰,张浩,郭俊辰,刘芊含,刘昊然,宋茜,范世錡,郑恺,陈赫,李心艾,吕一,杨玏
+[2018-01-21 12:57:36.810] [INFO] console - Save a drawed reward result : 幸运奖
+[2018-01-21 12:57:39.363] [INFO] console - Finished a drawing reward : 幸运奖
+[2018-01-21 12:57:39.959] [INFO] console - Finished a drawing reward : 幸运奖
+[2018-01-21 13:02:06.211] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 13:02:07.495] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 13:02:07.496] [INFO] console - Lottery taskId 0 随机用户: 乔任梁,吴亦凡,牟星,鹿晗,陈晓,迪丽热巴,毛晓彤,赵韩樱子,杨幂,刘诗诗,曹曦月,王洋,古力娜扎,江疏影,陈洁,李溪芮,Angelababy,张馨予,姜妍,张子萱,徐冬冬,蔡文静,唐娜,麦迪娜,靳东,李沁,吴优,颖儿,王鸥,谭松韵,戴向宇,宋茜,李心艾,刘昊然,吴磊,陈赫,焦俊艳,斓曦,张浩,方文强,晁然,张钧甯,陈翔,陈瑶,徐梵溪,唐嫣,张云龙,张檬,赵丽颖,杨紫,张丹峰,安悦溪,张萌,陈小纭,罗云熙,孙佳雨,秦语,孙耀琦,张天爱,郑业成,范冰冰,梁振伦,刘芊含,郑恺,王子文,徐海乔,杨烁,张翰,吕一,陈梦希
+[2018-01-21 13:02:07.497] [INFO] console - Lottery taskId 0 余下:陈学冬,李易峰,马可,郑爽,关晓彤,乔欣,赵圆瑗,宋轶,贾青,刘涛,成毅,马天宇,李纯米露,吴倩,胡冰卿,王凯,袁姗姗,蒋欣,徐璐,唐艺昕,蒋蕊泽,TFBOYS,杨洋,郭俊辰,范世錡,杨玏
+[2018-01-21 13:02:07.499] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 13:02:09.988] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 13:02:11.422] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 13:02:11.422] [INFO] console - Lottery taskId 0 随机用户: 宋轶,杨洋,徐璐,贾青,杨玏
+[2018-01-21 13:02:11.422] [INFO] console - Lottery taskId 0 余下:陈学冬,李易峰,马可,郑爽,关晓彤,乔欣,赵圆瑗,刘涛,成毅,马天宇,李纯米露,吴倩,胡冰卿,王凯,袁姗姗,蒋欣,唐艺昕,蒋蕊泽,TFBOYS,郭俊辰,范世錡
+[2018-01-21 13:02:11.423] [INFO] console - Save a drawed reward result : 三等奖
+[2018-01-21 13:02:14.222] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 13:02:15.576] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 13:02:15.576] [INFO] console - Lottery taskId 0 随机用户: 蒋欣,范世錡,吴倩,陈学冬,马可
+[2018-01-21 13:02:15.577] [INFO] console - Lottery taskId 0 余下:李易峰,郑爽,关晓彤,乔欣,赵圆瑗,刘涛,成毅,马天宇,李纯米露,胡冰卿,王凯,袁姗姗,唐艺昕,蒋蕊泽,TFBOYS,郭俊辰
+[2018-01-21 13:02:15.578] [INFO] console - Save a drawed reward result : 三等奖
+[2018-01-21 13:02:25.646] [INFO] console - Start a drawing reward : 四等奖
+[2018-01-21 13:02:26.702] [INFO] console - Stop a drawing reward : 四等奖
+[2018-01-21 13:02:26.702] [INFO] console - Lottery taskId 0 随机用户: 杨烁,马可,王子文,焦俊艳,徐海乔,安悦溪,陈赫,陈翔,李易峰,江疏影,马天宇,王洋,胡冰卿,张浩,唐娜,吕一,张丹峰,张檬,姜妍,郭俊辰,靳东,李纯米露,关晓彤,张萌,赵丽颖,郑业成,徐璐,刘诗诗,蔡文静,陈小纭,赵韩樱子,张天爱,谭松韵,范世錡,王凯,陈梦希,曹曦月,范冰冰,张钧甯,TFBOYS,李溪芮,张云龙,袁姗姗,徐冬冬,刘昊然,陈瑶,宋茜,蒋蕊泽,杨紫,乔欣,迪丽热巴,罗云熙,孙耀琦,梁振伦,鹿晗,吴优,吴亦凡,李心艾,陈晓,唐艺昕,陈洁,乔任梁,蒋欣,孙佳雨,郑恺,杨幂,古力娜扎,Angelababy,秦语,刘芊含
+[2018-01-21 13:02:26.702] [INFO] console - Lottery taskId 0 余下:陈学冬,徐梵溪,郑爽,麦迪娜,唐嫣,王鸥,赵圆瑗,张馨予,晁然,宋轶,贾青,戴向宇,吴磊,李沁,张子萱,刘涛,张翰,成毅,牟星,方文强,吴倩,毛晓彤,杨洋,颖儿,斓曦,杨玏
+[2018-01-21 13:02:26.703] [INFO] console - Save a drawed reward result : 四等奖
+[2018-01-21 13:02:29.784] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 13:02:34.279] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 13:02:34.279] [INFO] console - Lottery taskId 0 随机用户: 牟星,宋轶,陈学冬,张馨予,赵圆瑗
+[2018-01-21 13:02:34.280] [INFO] console - Lottery taskId 0 余下:徐梵溪,郑爽,麦迪娜,唐嫣,王鸥,晁然,贾青,戴向宇,吴磊,李沁,张子萱,刘涛,张翰,成毅,方文强,吴倩,毛晓彤,杨洋,颖儿,斓曦,杨玏
+[2018-01-21 13:02:34.281] [INFO] console - Save a drawed reward result : 三等奖
+[2018-01-21 13:02:37.346] [INFO] console - Start a drawing reward : 三等奖
+[2018-01-21 13:02:38.490] [INFO] console - Stop a drawing reward : 三等奖
+[2018-01-21 13:02:38.491] [INFO] console - Lottery taskId 0 随机用户: 徐梵溪,吴倩,方文强,麦迪娜,贾青
+[2018-01-21 13:02:38.491] [INFO] console - Lottery taskId 0 余下:郑爽,唐嫣,王鸥,晁然,戴向宇,吴磊,李沁,张子萱,刘涛,张翰,成毅,毛晓彤,杨洋,颖儿,斓曦,杨玏
+[2018-01-21 13:02:38.492] [INFO] console - Save a drawed reward result : 三等奖

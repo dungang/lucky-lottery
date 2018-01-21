@@ -43,7 +43,7 @@ var config =  {
                 },
                 {
                     title:'三等奖', //奖项名称
-                    count:5,     //奖项数量
+                    count:10,     //奖项数量
                     capacity:5,//一次抽取数量[1，count]
                     namesOfLine:1//获奖区每行显示几个名字 [1,2,3,4,6,12]
                 },
