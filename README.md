@@ -41,7 +41,8 @@ electron-packager ./ lucky-lottery --platform=win32 --out ../lucky-lottery-relea
 - 打开调试窗口 ctrl+i
 - 选择下一轮奖项：alt+n  启动软件之后第一个要执行的命令
 - 开始本轮抽奖：alt+s
-- 停止本轮抽奖：alt+c （此快捷键可能跟 翻译软件比如：金山快译冲突，建议关闭翻译软件）
+- 停止本轮抽奖[选出结果]：alt+c （此快捷键可能跟 翻译软件比如：金山快译冲突，建议关闭翻译软件）
+- 截屏：alt+x  （可以考虑存储图片结果）
 - 自由定制
 
 > 结果保存
