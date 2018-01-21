@@ -22,12 +22,16 @@ git clone http://github.com/dungang/lucky-lottery.git
 cd lucky-lottery
 
 #安装依赖包
-npm install -g electron@1.4.13 electron-packager
+npm install -g electron electron-packager
 npm install
 #启动项目
 npm start
-#或者打包win32
+#或者打包win32，，默认是64位版
 npm run-script package
+#如果要打包其他版本自己修改参数
+
+electron-packager ./ lucky-lottery --platform=win32 --out ../lucky-lottery-release --overwrite --icon=./images/app.icns
+
 ```
 
 - 在data/users.txt,添加用户的名称，每行一个名称
@@ -35,9 +39,9 @@ npm run-script package
 - 背景图片路径 images
 - 退出 ctrl+q 
 - 打开调试窗口 ctrl+i
-- 选择一个奖项：alt+n  启动软件之后第一个要执行的命令
-- 开始抽奖：alt+s
-- 停止抽奖：alt+c （此快捷键可能跟 翻译软件比如：金山快译冲突，建议关闭翻译软件）
+- 选择下一轮奖项：alt+n  启动软件之后第一个要执行的命令
+- 开始本轮抽奖：alt+s
+- 停止本轮抽奖：alt+c （此快捷键可能跟 翻译软件比如：金山快译冲突，建议关闭翻译软件）
 - 自由定制
 
 > 结果保存
@@ -63,7 +67,7 @@ npm run-script package
     subTitle: '幸运大抽奖',
     subTitleFontSize: '50px',
     subTitleColor:'#fdd312',
-    
+
     rewardTitleFontSize:'32px',
     rewardTitleColor:'#fdd312',
     rewardAreaTop: "0", //10%
@@ -74,8 +78,7 @@ npm run-script package
 
     //抽奖滚动时长 单位秒，自动停止,0表示只能手动停止
     //本系统手动停止始终存在
-    rollingTime:0, 
-
+    rollingTime:0,
     resultPath:'d:/lottery/', //结果截图保存路径
     tasks:[
         //一个任务可以添加多抽奖活动，
@@ -112,7 +115,6 @@ npm run-script package
                 }
             ]
         },
-        
         {
             title:'幸运百分百',
             except:['胡歌','李易峰'], //排除users.txt中的名单
