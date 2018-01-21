@@ -5,6 +5,8 @@ const {
 } = require('electron');
 var fs = require('fs');
 var lottery = require('./lottery');
+
+//初始化参数
 var config  = lottery.config;
 var logger = require('./log').logger;
 
@@ -27,7 +29,7 @@ subTitle.style.fontSize = config.subTitleFontSize;
 
 var area = document.querySelector('#reward-area');
 area.style.marginTop = config.rewardAreaTop;
-
+//-- 初始化参数结束
 
 let clock = null;
 
@@ -39,6 +41,11 @@ let audio = new Audio();
 
 audioPlayMusic('musicOfBackground',true);
 
+/**
+ * 播放背景音乐
+ * @param {string} name 
+ * @param {boolean} loop 
+ */
 function audioPlayMusic(name,loop=false)
 {
     audio.pause();
@@ -48,6 +55,10 @@ function audioPlayMusic(name,loop=false)
     audio.play();
 }
 
+/**
+ * 设置奖项的信息
+ * @param {object} reward 
+ */
 function setRewardInfo(reward)
 {
     var rewardInfo = document.querySelector('.reward');
@@ -56,12 +67,22 @@ function setRewardInfo(reward)
     rewardInfo.style.color = config.rewardTitleColor;
 }
 
+/**
+ * 更新获奖区域的内容
+ * @param {string} html 
+ */
 function setNames(html)
 {
     var box = document.querySelector('.reward-pepole');
     box.innerHTML = html;
 }
 
+/**
+ * 渲染抽奖的人员名单
+ * 
+ * @param {array} users 
+ * @param {number} numOfLine 
+ */
 function renderUsers(users,numOfLine)
 {
     var html = '';
@@ -71,6 +92,10 @@ function renderUsers(users,numOfLine)
     setNames(html);
 }
 
+/**
+ * 将当前时间生成格式化的字符串
+ * 主要使用在截图文件的存储
+ */
 function getNowFormatDate() {
     var date = new Date();
     var seperator1 = "";
@@ -89,6 +114,9 @@ function getNowFormatDate() {
     return currentdate;
 }
 
+/**
+ * 截图
+ */
 function captureResult()
 {
     desktopCapturer.getSources({
@@ -100,15 +128,25 @@ function captureResult()
             for (var i = 0; i < sources.length; ++i) {
                 if (sources[i].name == 'Entire screen') {
                     var timestamp = getNowFormatDate();
+                    if(!fs.existsSync(config.resultPath)) {
+                       fs.mkdirSync(config.resultPath);
+                    }
+
                     fs.writeFileSync(
                         config.resultPath + '/'+timestamp.toString()+'.png', 
                         sources[i].thumbnail.toPNG()
                     );
+                    
                 }
             }
     });
 }
 
+/**
+ * 定时停止抽奖活动
+ * 需配置参数开启，才生效
+ * config.rollingTime
+ */
 function autoStopRolling()
 {
     if (rollingTimer) {
@@ -119,6 +157,9 @@ function autoStopRolling()
     },config.rollingTime*1000);
 }
 
+/**
+ * 停止本轮抽奖，展示结果，并自动截屏
+ */
 function stopRolling(){
     var reward = lottery.currentReward();
     if(!reward) return;
@@ -139,6 +180,9 @@ function stopRolling(){
     },3000);
 }
 
+/**
+ * 执行本轮抽奖
+ */
 function startRolling()
 {
     var reward = lottery.currentReward();
@@ -160,28 +204,29 @@ function startRolling()
     }
 }
 
+//接受命令
 ipcRenderer.on('global-shortcut',(event,arg) => {
         switch(arg) {
-            case 'start':
-                
+            case 'start': //开始本轮抽奖
                 if (clock) return;
                 if (waitTimer) {
                     clearTimeout(waitTimer);
                 }
                 try {
-                    startRolling();
+                    startRolling(); 
                 } catch(e) {
                     console.error(e.toString());
                 }
                 break;
-            case 'stop':
+            case 'stop': //停止本轮抽奖，展示结果并自动截图
                 try {
                     stopRolling();
+                    captureResult();
                 } catch(e) {
                     console.error(e.toString());
                 }
                 break;
-            case 'next':
+            case 'next': //切换下一轮抽奖
                 var current = lottery.nextReward();
                 if (current) {
                     setRewardInfo(current);
@@ -192,12 +237,12 @@ ipcRenderer.on('global-shortcut',(event,arg) => {
                     setNames('<h1>'+config.allEndMessage+'</h1>');
                 }
                 break;
-            case 'novoice':
+            case 'novoice': //关闭背景音乐
                 audio.paused 
                     ? audio.pause()
                     : audio.play();
                 break;
-            case 'capture':
+            case 'capture': //截屏
                 captureResult();
                 break;
         }
