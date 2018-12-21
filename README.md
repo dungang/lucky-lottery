@@ -28,9 +28,9 @@ npm install
 npm start
 #或者打包win32，，默认是64位版
 npm run-script package
-#如果要打包其他版本自己修改参数
+#如果要打包其他版本自己修改参数 --platform=win32 
 
-electron-packager ./ lucky-lottery --platform=win32 --out ../lucky-lottery-release --overwrite --icon=./images/app.icns
+electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --icon=./images/app.icns
 
 ```
 
