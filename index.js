@@ -6,6 +6,7 @@ const {
 var fs = require('fs');
 var lottery = require('./lottery');
 
+
 //初始化参数
 var config = lottery.config;
 var logger = require('./log').logger;
@@ -37,23 +38,51 @@ let randomTimer = null;
 //定时停止的抽奖的定时器
 let autoStopRollingTimer = null;
 
+
+const AudioContext = window.AudioContext || window.webkitAudioContext;
+
+
+
 /**
- * 播放器
+ * 播放器主题音乐
+ * musicOfBackground
  */
-let audio = new Audio();
+let themeAudio = createAudio('musicOfBackground', true);
+let rollingAudio = createAudio('musicOfRolling', true);
+let drawAudio = createAudio('musicOfDraw', false);
+
+let currrenAudio = themeAudio;
+
 
 /**
  * 是否在抽奖中
  */
 let rolling = false;
 
-audioPlayMusic('musicOfBackground', true);
+/**
+ * 创建音乐元素
+ * @param {string} music 
+ * @param {bool} loop 
+ */
+function createAudio(music, loop) {
+    let audioCtx = new AudioContext();
+    let audio = new Audio();
+    audio.src = __dirname + '/musics/' + music + '.mp3';
+    audio.currentTime = 0;
+    audio.loop = loop;
+    let track = audioCtx.createMediaElementSource(audio);
+    track.connect(audioCtx.destination);
+    if (audioCtx.state === 'suspended') {
+        audioCtx.resume();
+    }
+    return audio;
+}
 
 /**
  * 清楚随机显示人员的定时器
  */
-function clearRandomTimer () {
-    if(randomTimer) {
+function clearRandomTimer() {
+    if (randomTimer) {
         window.clearInterval(randomTimer);
         randomTimer = null;
     }
@@ -62,47 +91,29 @@ function clearRandomTimer () {
 /**
  * 是否可以开启rolling
  */
-function canStartRolling(){
-    if(randomTimer) return false;
+function canStartRolling() {
+    if (randomTimer) return false;
     else return true;
 }
 
 /**
  * 开启随机显示人员的定时器
  */
-function startRandomTimer(callback,time){
-    randomTimer = window.setInterval(callback,time);
+function startRandomTimer(callback, time) {
+    randomTimer = window.setInterval(callback, time);
 }
 
 /**
  * 开启定时停止本轮抽奖的定时器
  */
-function startAutoStopRollingTimer(callback,time){
-    if(autoStopRollingTimer) {
+function startAutoStopRollingTimer(callback, time) {
+    if (autoStopRollingTimer) {
         window.clearTimeout(autoStopRollingTimer);
         autoStopRollingTimer = null;
     }
-    autoStopRollingTimer = window.setTimeout(callback,time);
+    autoStopRollingTimer = window.setTimeout(callback, time);
 }
 
-/**
- * 播放背景音乐
- * @param {string} name 
- * @param {boolean} loop 
- */
-function audioPlayMusic(name, loop = false, callback) {
-    audio.pause();
-    audio.src = __dirname + '/musics/' + name + '.mp3';
-    audio.currentTime = 0;
-    audio.loop = loop;
-    audio.addEventListener('loadedmetadata', function () {
-        audio.play();
-        if (typeof callback == 'function') {
-            callback.call(audio);
-        }
-    },{once:true});
-
-}
 
 /**
  * 设置奖项的信息
@@ -137,6 +148,8 @@ function renderUsers(users, numOfLine) {
     }
     setNames(html);
 }
+
+
 
 /**
  * 将当前时间生成格式化的字符串
@@ -174,7 +187,7 @@ function captureResult() {
         function (error, sources) {
             if (error) throw error
             for (var i = 0; i < sources.length; ++i) {
-                if (sources[i].name == 'Entire screen') {
+                if (sources[i].name == 'lucky-lottery') {
                     var timestamp = getNowFormatDate();
                     if (!fs.existsSync(config.resultPath)) {
                         fs.mkdirSync(config.resultPath);
@@ -205,29 +218,35 @@ function autoStopRolling() {
  * 停止本轮抽奖，展示结果，并自动截屏
  */
 function stopRolling() {
-    if(rolling===true) {
+    if (rolling === true) {
         rolling = false;
         var reward = lottery.currentReward();
         clearRandomTimer();
-        console.log('Stop a drawing reward : ' + reward.title);
+        logger.info('Stop a drawing reward : ' + reward.title);
         if (lottery.completedOnceRolling()) {
             //获取最新的奖项数据（获奖人数的变化）
             reward = lottery.currentReward();
             setRewardInfo(reward);
             //等待一秒后执行，应为渲染是结果是异步的，需要时间
-            window.setTimeout(function(){
+            window.setTimeout(function () {
                 captureResult();
-            },500);
-            console.log('Save a drawed reward result : ' + reward.title);
+            }, 500);
+            logger.info('Save a drawed reward result : ' + reward.title);
         }
-        audioPlayMusic('musicOfDraw', false, function () {
-            
-            this.addEventListener('ended', function () {
-                audioPlayMusic('musicOfBackground', true);
+        //关闭抽奖音乐
+        rollingAudio.pause();
+        //打开抽奖结果音乐
+        drawAudio.play().then(() => {
+            currrenAudio = drawAudio;
+            drawAudio.addEventListener('ended', function (event) {
+                themeAudio.play().then(()=>{
+                    currrenAudio = themeAudio;
+                });
             }, {
                 once: true
             })
         });
+
     }
 }
 
@@ -236,11 +255,14 @@ function stopRolling() {
  */
 function startRolling() {
     var reward = lottery.currentReward();
-    if(rolling == false && reward) {
+    if (rolling == false && reward) {
         if (canStartRolling() && lottery.canStart()) {
             rolling = true;
-            audioPlayMusic('musicOfRolling', true, function () {
-                console.log('Start a drawing reward : ' + reward.title);
+            themeAudio.pause();
+            rollingAudio.play().then(() => {
+                logger.info('Start a drawing reward : ' + reward.title);
+                //更新当前的音乐
+                currrenAudio = rollingAudio;
                 startRandomTimer(function () {
                     var users = lottery.randomUsers();
                     if (users.length > 0) {
@@ -249,11 +271,13 @@ function startRolling() {
                 }, 10);
                 if (config.rollingTime > 0) autoStopRolling();
             });
-    
         } else {
-            console.log('Finished a drawing reward : ' + reward.title);
-            setNames('<h1>' + config.onceEndMessage + '</h1>');
-            audioPlayMusic('musicOfBackground', true);
+            themeAudio.play().then(() => {
+                currrenAudio = themeAudio;
+                logger.info('Finished a drawing reward : ' + reward.title);
+                setNames('<h1>' + config.onceEndMessage + '</h1>');
+            });
+
         }
     }
 }
@@ -287,9 +311,7 @@ ipcRenderer.on('global-shortcut', (event, arg) => {
             }
             break;
         case 'novoice': //关闭背景音乐
-            audio.paused ?
-                audio.pause() :
-                audio.play();
+            currrenAudio.paused ? currrenAudio.play() : currrenAudio.pause();
             break;
         case 'capture': //截屏
             captureResult();

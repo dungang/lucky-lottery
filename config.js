@@ -38,7 +38,7 @@ var config =  {
                 {
                     title:'四等奖',  //奖项名称
                     count:70,     //奖项数量
-                    capacity:70,//一次抽取数量[1，count]
+                    capacity:35,//一次抽取数量[1，count]
                     namesOfLine:6  //获奖区每行显示几个名字 [1,2,3,4,6,12]
                 },
                 {

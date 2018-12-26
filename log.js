@@ -1,21 +1,23 @@
 "use strict";
 var log4js = require('log4js');
 log4js.configure({
-    appenders: [
-        {
-            type: "file",
-            filename: __dirname+"/log/log.txt",
-            category: [ 'cheese','console' ]
-        },
-        {
-            type: "console"
+    "appenders": {
+        cheese: {
+            "type": "file",
+            "filename": __dirname + "/log/log.txt"
         }
-    ],
-    replaceConsole: true
+    },
+    categories: {
+        default: {
+            appenders: ['cheese'],
+            level: 'info'
+        }
+    },
+    "replaceConsole": true,
+
 });
-log4js.loadAppender('file');
+//log4js.loadAppender('file');
 var logger = log4js.getLogger('cheese');
-logger.setLevel('ERROR');
 module.exports = {
-    logger:logger
+    logger: logger
 }

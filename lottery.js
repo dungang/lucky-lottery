@@ -1,5 +1,6 @@
 'use strict'
 
+var logger = require('./log').logger;
 var config = require('./config').config;
 var fs = require("fs");
 var data = fs.readFileSync(__dirname + '/data/users.txt');
@@ -28,8 +29,8 @@ function filterRestUser(except) {
             restUsers.push(user);
         }
     }
-    console.log('排除名单：' + except.toString());
-    console.log('剩下名单：' + restUsers.toString());
+    logger.info('排除名单：' + except.toString());
+    logger.info('剩下名单：' + restUsers.toString());
     return restUsers;
 }
 
@@ -122,7 +123,7 @@ function randomUsers() {
 function completedOnceRolling() {
     if (!isRewardCompleted(current)) {
         var task = tasks[current.taskId];
-        console.log('Lottery taskId ' + current.taskId + ' 随机用户: ' + task.lastRandUsers.toString());
+        logger.info('Lottery taskId ' + current.taskId + '本次获奖随机用户: ' + task.lastRandUsers.toString());
         if (task.lastRandUsers.length > 0) {
             var rest = current.count - current.consume;
             var consumeNumber = rest < current.capacity ? rest : current.capacity;
@@ -136,7 +137,7 @@ function completedOnceRolling() {
             tasks[current.taskId].restUsers = restUsers;
             tasks[current.taskId].lastRandUsers = [];
             tasks[current.taskId].consumeUsers.push(task.lastRandUsers);
-            console.log('Lottery taskId ' + current.taskId + ' 余下:' + tasks[current.taskId].restUsers.toString());
+            logger.info('Lottery taskId ' + current.taskId + ' 余下:' + tasks[current.taskId].restUsers.toString());
             return true;
         }
     }
