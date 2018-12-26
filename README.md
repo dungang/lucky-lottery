@@ -39,6 +39,7 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
 - 背景图片路径 images
 - 退出 ctrl+q 
 - 打开调试窗口 ctrl+i
+- 打开音乐/关闭音乐，alt+v 由于新版浏览器用户体验策略调整，不允许自动播放音乐，所有打开之后没有自动播放，需要手动执行 alt+v
 - 选择下一轮奖项：alt+n  启动软件之后第一个要执行的命令
 - 开始本轮抽奖：alt+s
 - 停止本轮抽奖[选出结果]：alt+c （此快捷键可能跟 翻译软件比如：金山快译冲突，建议关闭翻译软件）
@@ -93,7 +94,7 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
                 {
                     title:'四等奖',  //奖项名称
                     count:70,     //奖项数量
-                    capacity:70,//一次抽取数量[1，count]
+                    capacity:35,//一次抽取数量[1，count]，此处设置35表示2次抽完该奖项
                     namesOfLine:6  //获奖区每行显示几个名字 [1,2,3,4,6,12]
                 },
                 {
