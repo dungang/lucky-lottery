@@ -40,6 +40,8 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
 - 用户文件在打包的目录 lucky-lottery-win32-x64\resources\app\data\users.txt
 - 运行 lucky-lottery-win32-x64\lucky-lottory.exe
 
+> 关于配置数据
+
 - 在data/users.txt,添加用户的名称，每行一个名称
 - 修改配置文件 config.js 文件有备注
 - 背景图片路径 images
