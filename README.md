@@ -52,7 +52,12 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
 可以在配置文件中修改，设置其他路径
 还可以查看日子文件 log/log.txt
 
-> 编辑配置
+> 如何在自己打包的软件中修改配置
+
+- 配置文件在打包的目录 lucky-lottery-win32-x64\resources\app\config.js
+- 用户文件在打包的目录 lucky-lottery-win32-x64\resources\app\data\users.txt
+
+> 编辑配置 config.js
 
 ```javascript
  {
