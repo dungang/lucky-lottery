@@ -39,25 +39,29 @@ var config =  {
                     title:'四等奖',  //奖项名称
                     count:70,     //奖项数量
                     capacity:35,//一次抽取数量[1，count]
-                    namesOfLine:6  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:6,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 24 //px
                 },
                 {
                     title:'三等奖', //奖项名称
                     count:10,     //奖项数量
                     capacity:5,//一次抽取数量[1，count]
-                    namesOfLine:1//获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:3,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 32 //px
                 },
                 {
                     title:'二等奖',  //奖项名称
                     count:5,//奖项数量
                     capacity:5,//一次抽取数量[1，count]
-                    namesOfLine:1   //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:3,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 32 //px
                 },
                 {
                     title:'一等奖', //奖项名称
                     count:5,     //奖项数量
                     capacity:5,//一次抽取数量[1，count]
-                    namesOfLine:1    //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:3,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 32 //px
                 }
             ]
         },
@@ -70,7 +74,8 @@ var config =  {
                     title:'幸运奖', //奖项名称
                     count:1,     //奖项数量
                     capacity:1,  //一次抽取数量[1，count]
-                    namesOfLine:1 //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:1,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 64 //px
                 }
             ]
         }

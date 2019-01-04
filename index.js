@@ -139,12 +139,12 @@ function setNames(html) {
  * 渲染抽奖的人员名单
  * 
  * @param {array} users 
- * @param {number} numOfLine 
+ * @param {object} reward 
  */
-function renderUsers(users, numOfLine) {
+function renderUsers(users, reward) {
     var html = '';
     for (var i = 0; i < users.length; i++) {
-        html += '<span class="col-md-' + numOfLine + ' col-' + numOfLine + '">' + users[i] + '</span>';
+        html += '<span class="col-md-' + reward.cols + ' col-' + reward.cols + '" style="font-size:'+reward.fontSize+'px">' + users[i] + '</span>';
     }
     setNames(html);
 }
@@ -266,7 +266,7 @@ function startRolling() {
                 startRandomTimer(function () {
                     var users = lottery.randomUsers();
                     if (users.length > 0) {
-                        renderUsers(users, reward.cols);
+                        renderUsers(users, reward);
                     }
                 }, 10);
                 if (config.rollingTime > 0) autoStopRolling();

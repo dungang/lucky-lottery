@@ -66,3 +66,5 @@ const {
       createWindow()
     }
   })
+
+  app.commandLine.appendSwitch('--autoplay-policy','no-user-gesture-required')

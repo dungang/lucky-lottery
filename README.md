@@ -55,7 +55,6 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
 > 编辑配置
 
 ```javascript
-
  {
      //默认字体颜色
     fontColor: '#fdd312',
@@ -69,7 +68,7 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
     subTitle: '幸运大抽奖',
     subTitleFontSize: '50px',
     subTitleColor:'#fdd312',
-
+    
     rewardTitleFontSize:'32px',
     rewardTitleColor:'#fdd312',
     rewardAreaTop: "0", //10%
@@ -80,7 +79,8 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
 
     //抽奖滚动时长 单位秒，自动停止,0表示只能手动停止
     //本系统手动停止始终存在
-    rollingTime:0,
+    rollingTime:0, 
+
     resultPath:'d:/lottery/', //结果截图保存路径
     tasks:[
         //一个任务可以添加多抽奖活动，
@@ -94,26 +94,30 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
                 {
                     title:'四等奖',  //奖项名称
                     count:70,     //奖项数量
-                    capacity:35,//一次抽取数量[1，count]，此处设置35表示2次抽完该奖项
-                    namesOfLine:6  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    capacity:35,//一次抽取数量[1，count]
+                    namesOfLine:6,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 24 //px
                 },
                 {
                     title:'三等奖', //奖项名称
-                    count:5,     //奖项数量
+                    count:10,     //奖项数量
                     capacity:5,//一次抽取数量[1，count]
-                    namesOfLine:1//获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:3,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 32 //px
                 },
                 {
                     title:'二等奖',  //奖项名称
                     count:5,//奖项数量
                     capacity:5,//一次抽取数量[1，count]
-                    namesOfLine:1   //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:3,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 32 //px
                 },
                 {
                     title:'一等奖', //奖项名称
                     count:5,     //奖项数量
                     capacity:5,//一次抽取数量[1，count]
-                    namesOfLine:1    //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:3,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 32 //px
                 }
             ]
         },
@@ -125,14 +129,14 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
                     title:'幸运奖', //奖项名称
                     count:1,     //奖项数量
                     capacity:1,  //一次抽取数量[1，count]
-                    namesOfLine:1 //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    namesOfLine:1,  //获奖区每行显示几个名字 [1,2,3,4,6,12]
+                    nameFontSize: 64 //px
                 }
             ]
         }
     ]
 
 }
-
 ```
 
 如果软件对您有用，你也可以捐赠此软件的开发,

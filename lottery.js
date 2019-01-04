@@ -53,6 +53,7 @@ function initData() {
                     title: reward.title,
                     count: reward.count,
                     capacity: reward.capacity,
+                    fontSize: reward.nameFontSize,
                     consume: 0,
                     cols: getCols(reward.namesOfLine)
                 });
