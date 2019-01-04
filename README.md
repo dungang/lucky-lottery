@@ -15,7 +15,7 @@
 要么有人数限制，规则限制，或者根本运行不起来。
 所以自己开一款分享给需要的人，比较简陋，但是够用
 
-> 使用手册
+> 源码使用手册
 
 ```sh
 git clone http://github.com/dungang/lucky-lottery.git
@@ -34,6 +34,12 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
 
 ```
 
+> 打包后如何使用
+
+- 配置文件在打包的目录 lucky-lottery-win32-x64\resources\app\config.js
+- 用户文件在打包的目录 lucky-lottery-win32-x64\resources\app\data\users.txt
+- 运行 lucky-lottery-win32-x64\lucky-lottory.exe
+
 - 在data/users.txt,添加用户的名称，每行一个名称
 - 修改配置文件 config.js 文件有备注
 - 背景图片路径 images
@@ -51,11 +57,6 @@ electron-packager ./ lucky-lottery --out ../lucky-lottery-release --overwrite --
 抽奖结果自动截图，默认保存在 d:/lottery/
 可以在配置文件中修改，设置其他路径
 还可以查看日子文件 log/log.txt
-
-> 如何在自己打包的软件中修改配置
-
-- 配置文件在打包的目录 lucky-lottery-win32-x64\resources\app\config.js
-- 用户文件在打包的目录 lucky-lottery-win32-x64\resources\app\data\users.txt
 
 > 编辑配置 config.js
 
